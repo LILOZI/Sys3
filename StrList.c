@@ -74,6 +74,7 @@ void StrList_insertLast(StrList* strList, const char* str)
                 p_node->_next = p_insert_node;
             }
         }
+        strList->_size++;
     }
 }
 
